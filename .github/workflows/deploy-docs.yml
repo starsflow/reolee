@@ -51,3 +51,4 @@ jobs:
           branch: main
           folder: src/.vuepress/dist
           repository-name: starsflow/reolee
+          token: ${{ secrets.DEPLOY_TOKEN }}
