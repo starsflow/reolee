@@ -50,4 +50,4 @@ jobs:
           # Deploy Docs
           branch: main
           folder: src/.vuepress/dist
-          repository-name: reolee
+          repository-name: starsflow/reolee
