@@ -44,9 +44,9 @@ jobs:
           pnpm run docs:build
           > src/.vuepress/dist/.nojekyll
 
-      - name: Deploy Docs
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          # Deploy Docs
-          branch: gh-pages
-          folder: src/.vuepress/dist
+      # - name: Deploy Docs
+      #   uses: JamesIves/github-pages-deploy-action@v4
+      #   with:
+      #     # Deploy Docs
+      #     branch: gh-pages
+      #     folder: src/.vuepress/dist
